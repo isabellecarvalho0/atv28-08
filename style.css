@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Cor de fundo suave em azul claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #00796b; /* Fundo verde escuro para o cabeçalho */
+    border-bottom: 1px solid #004d40; /* Borda inferior verde escuro */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff; /* Cor do texto branca para contraste */
+    font-size: 26px;
+}
+
+main.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.tech-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-block {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.top-block, .bottom-block {
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px; /* Tamanho aumentado */
+    height: 250px;
+    padding: 25px; /* Padding aumentado para maior área clicável */
+    text-decoration: none;
+    color: #004d40; /* Cor do texto verde escuro */
+    background-color: #b2dfdb; /* Cor de fundo verde claro para os botões */
+    border: 2px solid #00796b; /* Borda verde escuro */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #80cbc4; /* Cor de fundo verde mais escuro ao passar o mouse */
+    color: #004d40; /* Cor do texto verde escuro */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.button-content {
+    text-align: center;
+}
+
+.button h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #004d40; /* Cor do texto verde escuro */
+}
+
+.button p {
+    margin: 0;
+    font-size: 16px;
+    color: #00796b; /* Cor do texto verde médio */
+}
+
+footer {
+    background-color: #00796b; /* Fundo verde escuro para o rodapé */
+    color: #ffffff; /* Cor do texto branca para contraste */
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #004d40; /* Borda superior verde escuro */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
